@@ -76,7 +76,7 @@
                 </ul>
                 <div class="tab-content py-4">
                     <div id="ios" class="tab-pane active">
-                    <p>Hello iOS,Hello iOS,Hello iOS,Hello iOS,Hello iOS,Hello iOS,Hello iOS,Hello iOS,Hello iOS,Hello iOS,Hello iOS,Hello iOS,Hello iOS,Hello iOS,</p>
+                    <p>Hello iOS,Hello iOS,<span class="font-weight-bold text-info" deta-toggle="tooltip" title="This is awesome" data-plicement="bottom">Hello iOS,Hello iOS,</span>Hello iOS,Hello iOS,Hello iOS,Hello iOS,Hello iOS,Hello iOS,Hello iOS,Hello iOS,Hello iOS,Hello iOS,</p>
                     </div>
 
                     <div id="android" class="tab-pane">
@@ -106,4 +106,10 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
   </body>
+  <script>
+      $(function(){
+          'use strict';
+          $('[data-toggle="tooletip"]').tooltip();
+      })
+  </script>
 </html>
